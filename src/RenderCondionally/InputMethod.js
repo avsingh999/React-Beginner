@@ -11,9 +11,9 @@ const ImputMethod = props => {
         
       </h2>
       {props.status === true ? <button onClick={props.click} style={{
-        backgroundColor: 'white', cursor: 'pointer'
+        backgroundColor: 'white', cursor: 'pointer', border: '1px solid blue', borderRadius: '5px', width: '79px', height: '38px'
       }}>save</button> : <button onClick={props.click} style={{
-          backgroundColor: 'white', cursor: 'pointer'
+          backgroundColor: 'white', cursor: 'pointer', border: '1px solid blue', borderRadius:'5px',width:'79px',height:'38px'
 
       }} >edit</button> }
       <br />
