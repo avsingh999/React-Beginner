@@ -1,0 +1,11 @@
+.InputMethod{
+    width: 50%;
+    height:100px;
+    margin: 30px 0px 253px 320px;
+    border: 2px solid #eee;
+    box-shadow: 1px 2px 20px #ccc;
+    padding: 17px;
+    text-align: center;
+    /* background-color: blue; */
+
+}

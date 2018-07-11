@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './Person/App';
 // import  App from "./InputMethod/App";
-import App from './RenderCondionally/App'
+import App from './Lists/App'
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById("root"));
