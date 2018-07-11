@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import "./InputMethod.css";
-import Input_Method from './InputMethod';
+import Lists from './InputMethod';
 
 class App extends Component {
   state = {
@@ -46,7 +46,7 @@ class App extends Component {
       persons = (
         <div>
           {this.state.persons.map((person, index) => {
-            return ( <Input_Method
+            return ( <Lists
              name={person.name}
              status={this.state.Edit}
              click={this.deletePersonHandlor.bind(index)}
@@ -55,7 +55,7 @@ class App extends Component {
                this.nameChangedHandler(event, person.id)
              }}>
           Singh
-        </Input_Method> )
+        </Lists> )
           })}
         </div>
       )
